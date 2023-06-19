@@ -8,6 +8,10 @@ module.exports = {
         source: '/',
         destination: '/show/latest/latest',
       },
+      {
+        source: '/admin',
+        destination: '/admin/index.html',
+      },
     ];
   },
   webpack: (config) => {
